@@ -7,4 +7,10 @@ module.exports = {
   use: {
     headless: false,    // run tests in headless mode
   },
+
+  projects: [
+    {
+      name: 'electron-app',
+    },
+  ],
 };
