@@ -1,0 +1,27 @@
+{
+  "name": "electron-playwright-issue",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder",
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "playwright",
+    "issue",
+    "demo"
+  ],
+  "author": "David Bochan",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.10",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "electron-playwright-issue"
+  }
+}
