@@ -10,4 +10,4 @@ npm run build
 npx playwright test
 ```
 
-See [main.js](main.js) for a workaround.
+See [main.js](main.js) for a workaround and the related [Playwright issue](https://github.com/microsoft/playwright/issues/29386) for more information.
